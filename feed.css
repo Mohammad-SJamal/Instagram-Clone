@@ -1,4 +1,4 @@
-body {
+/* body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,6 +13,31 @@ body {
     width: 25vw;
     background-color: black;
     color: white;
+} */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Instagram Sans Script', sans-serif;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    overflow: hidden; /* Prevent the outer scroll */
+}
+
+.feed-container {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 95vh;
+    background-color: black;
+    color: white;
+    overflow-y: scroll;
+    scrollbar-width: none; 
+}
+
+.feed-container::-webkit-scrollbar {
+    display: none; 
 }
 
 .nav-bar {
