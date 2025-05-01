@@ -2,25 +2,31 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Instagram Sans Script', sans-serif;
+                                                
 }
 
 .feed-container {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    width: 20vw;
+    width: 25vw;
     background-color: black;
     color: white;
-    padding: 20px;
+    padding: 10px;
 }
 
 .nav-bar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .left-nav-bar {
     display: flex;
+    align-items: center;
+    gap: 3px;
+
 }
 
 .right-nav-bar {
@@ -44,12 +50,14 @@ body {
 
 .account-data {
     display: flex;
+    align-items: center;
     gap: 5px;
 }
 
 .song-data {
     display: flex;
     gap: 5px;
+    font-size: 10px;
 }
 
 .video-container {
@@ -77,21 +85,43 @@ body {
 }
 
 .heart-image {
-    width: 20px;
+    width: 25px;
 }
 
 .comment-image {
-    width: 20px;
+    width: 25px;
 }
 .share-image {
-    width: 20px;
+    width: 25px;
     
 }
 
 .fav-image {
-    width: 20px;
+    width: 25px;
 }
+
 .post-image {
+    width: 35px;
+    height: 35px;
+}
+
+.arrow-down-icon {
+    width: 15px;
+    height: 15px;
+}
+
+.verified-account {
+    width: 12px;
+    height: 12px;
+}
+
+.multiverse-logo-white {
+    width: 80px;
+    height: 30px;
+}
+
+.multiverse-round-logo {
     width: 30px;
-    height: 45px
+    height: 30px;
+    border-radius: 50%;
 }
