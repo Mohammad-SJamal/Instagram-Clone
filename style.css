@@ -80,3 +80,18 @@ body {
     width: 20px;
 }
 
+.comment-image {
+    width: 20px;
+}
+.share-image {
+    width: 20px;
+    
+}
+
+.fav-image {
+    width: 20px;
+}
+.post-image {
+    width: 30px;
+    height: 45px
+}
